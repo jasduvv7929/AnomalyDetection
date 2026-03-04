@@ -151,7 +151,7 @@ Store to DynamoDB + S3
 - Data storage orchestration
 
 <p align="center">
-  <img src="https://github.com/jasduvv7929/AnomalyDetection/blob/31570eb76d5296a277d724edcc5cfe31efefa5d1/Images/CloudWatch.png" alt="Lamba Monitoring" width="300"/>
+  <img src="https://github.com/jasduvv7929/AnomalyDetection/blob/31570eb76d5296a277d724edcc5cfe31efefa5d1/Images/CloudWatch.png" alt="Lamba Monitoring"/>
 </p>
 
 ---
@@ -225,11 +225,11 @@ Attributes:
 - Native Decimal type for financial data
 
 <p align="center">
-  <img src="https://github.com/jasduvv7929/AnomalyDetection/blob/31570eb76d5296a277d724edcc5cfe31efefa5d1/Images/DynamoDB.png" alt="DynamoDB tables" width="300"/>
+  <img src="https://github.com/jasduvv7929/AnomalyDetection/blob/31570eb76d5296a277d724edcc5cfe31efefa5d1/Images/DynamoDB.png" alt="DynamoDB tables"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/jasduvv7929/AnomalyDetection/blob/31570eb76d5296a277d724edcc5cfe31efefa5d1/Images/DynamoDB_1.png" alt="anamoly detection logs" width="300"/>
+  <img src="https://github.com/jasduvv7929/AnomalyDetection/blob/31570eb76d5296a277d724edcc5cfe31efefa5d1/Images/DynamoDB_1.png" alt="anamoly detection logs"/>
 </p>
 
 ---
