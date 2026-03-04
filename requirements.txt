@@ -1,0 +1,7 @@
+boto3              # AWS SDK
+pandas             # Data manipulation
+xgboost            # ML training
+scikit-learn       # Train/test split
+yfinance           # Yahoo Finance data
+google-cloud-bigquery  # Historical backfill
+requests           # API calls
