@@ -180,7 +180,7 @@ bucket-name/
 - Native AWS integration
 
 <p align="center">
-  <img src="https://github.com/jasduvv7929/AnomalyDetection/blob/31570eb76d5296a277d724edcc5cfe31efefa5d1/Images/S3.png" alt="S3 Bucket" width="300"/>
+  <img src="https://github.com/jasduvv7929/AnomalyDetection/blob/31570eb76d5296a277d724edcc5cfe31efefa5d1/Images/S3.png" alt="S3 Bucket"/>
 </p>
 
 ---
