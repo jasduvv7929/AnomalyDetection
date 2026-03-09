@@ -4,19 +4,19 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 Built an automated system that detects market anomalies by identifying divergence patterns between news sentiment and market behavior, using machine learning and large language models.
 
 **What I Built:**
-- 🤖 Dual-detection system combining rule-based scoring with XGBoost ML
-- 💬 Automated explanations using Amazon Bedrock (Llama 3.1 8B)
-- ⚡ Serverless architecture integrating 7 AWS services
-- 📊 Automated data ingestion at 30-minute intervals
+- Dual-detection system combining rule-based scoring with XGBoost ML
+- Automated explanations using Amazon Bedrock (Llama 3.1 8B)
+- Serverless architecture integrating 7 AWS services
+- Automated data ingestion at 30-minute intervals
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 **Data Flow:**
 ```
@@ -81,7 +81,7 @@ Complete technical documentation: [PROJECT_DOCUMENTATION.md](PROJECT_DOCUMENTATI
 **Core Python Files:**
 - `backfill_historical.py` - Historical data collection (262 days)
 - `create_ml_dataset.py` - Feature engineering (29 features)
-- `train_model.py` - XGBoost model training on SageMaker
+- `anomaly_crash_predictor.ipynb` - XGBoost model training on SageMaker
 - `lambda_function.py` - Real-time detection Lambda function
 - `glue_job.py` - AWS Glue PySpark ETL job
 
@@ -94,7 +94,7 @@ Complete technical documentation: [PROJECT_DOCUMENTATION.md](PROJECT_DOCUMENTATI
 
 ---
 
-## 💡 Technical Implementation
+## Technical Implementation
 
 ### 1. Serverless Architecture
 Integrated 7 AWS services (Lambda, Glue, EventBridge, S3, DynamoDB, SageMaker, Bedrock) with automated orchestration
@@ -110,7 +110,7 @@ Trained XGBoost model on engineered features, deployed to SageMaker endpoint for
 
 ---
 
-## 🎯 System Capabilities
+## System Capabilities
 
 **Automated Detection:**
 - Identifies divergence patterns between news sentiment and market behavior
@@ -126,7 +126,7 @@ Trained XGBoost model on engineered features, deployed to SageMaker endpoint for
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 **AWS Services:**
 - Lambda (serverless compute)
@@ -157,7 +157,7 @@ Trained XGBoost model on engineered features, deployed to SageMaker endpoint for
 
 ---
 
-## 📈 Potential Enhancements
+## Potential Enhancements
 
 **Model Improvements:**
 - Expand training data to 5+ years for better generalization
