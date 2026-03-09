@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 ### Objective
 Built a serverless ML system that detects market anomalies by identifying divergence patterns between news sentiment and market behavior, with automated natural language explanations.
@@ -32,7 +32,7 @@ An automated system that:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### High-Level System Design
 
@@ -126,7 +126,7 @@ Store to DynamoDB + S3
 
 ---
 
-## 🛠️ AWS Services Used
+## AWS Services Used
 
 ### 1. AWS Lambda
 **Purpose:** Serverless compute for orchestration
@@ -322,7 +322,7 @@ State: ENABLED
 
 ---
 
-## 📊 Data Sources
+## Data Sources
 
 ### 1. GDELT (Global Database of Events, Language, and Tone)
 **What it provides:** News sentiment from global media
@@ -409,7 +409,7 @@ vix = float(response.json()['observations'][0]['value'])
 
 ---
 
-## 🔧 System Components
+## System Components
 
 ### Component 1: Historical Backfill (`backfill_historical.py`)
 
@@ -680,7 +680,7 @@ return response_body['generation']
 
 ---
 
-## 📖 Implementation Guide
+## Implementation Guide
 
 ### Prerequisites
 
@@ -942,7 +942,7 @@ Actual Normal    39      3
 
 ---
 
-## 🎓 Key Learnings
+## Key Learnings
 
 ### Technical Skills Gained
 
